@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="es">
 <head>
   <meta charset="UTF-8">
@@ -19,50 +20,31 @@
         <img src="logo-premium-main.png" alt="Logo DISO" class="site-logo">
       </a>
 
-      <button class="menu-toggle" aria-label="Abrir menú">
-        ☰
-      </button>
+```
+  <button class="menu-toggle" aria-label="Abrir menú">
+    ☰
+  </button>
 
-      <ul class="nav-links">
-        <li><a href="#inicio">Inicio</a></li>
-        <li><a href="#nichos">Demos</a></li>
-        <li><a href="#beneficios">Beneficios</a></li>
-        <li><a href="#proceso">Proceso</a></li>
-        <li><a href="#mantenimiento">Mantenimiento</a></li>
-        <li><a href="#faq">FAQ</a></li>
-        <li><a href="#contacto">Contacto</a></li>
-      </ul>
-    </nav>
+  <ul class="nav-links">
+    <li><a href="#inicio">Inicio</a></li>
+    <li><a href="#nichos">Demos</a></li>
+    <li><a href="#beneficios">Beneficios</a></li>
+    <li><a href="#proceso">Proceso</a></li>
+    <li><a href="#mantenimiento">Mantenimiento</a></li>
+    <li><a href="#faq">FAQ</a></li>
+    <li><a href="#contacto">Contacto</a></li>
+  </ul>
+</nav>
+```
+
   </header>
 
   <main>
- <section id="inicio" class="hero">
+    <section id="inicio" class="hero">
 
+```
   <!-- CAPA OSCURA -->
   <div class="hero-overlay"></div>
-
-  <!-- ANIMACIÓN DE CÓDIGO -->
-  <div class="hero-code-bg" aria-hidden="true">
-    <pre>
-const negocio = "premium";
-const conversion = true;
-
-const DISO = {
-  nichos: ["barberías", "dentistas", "salón de belleza", "médicos", "restaurantes", "uñas"],
-  entrega: "48-72 hrs",
-  mantenimiento: "$500/mes",
-  contacto: "WhatsApp"
-};
-
-function escalarMarca(nombre) {
-  return `${nombre} ahora se ve profesional`;
-}
-
-if (conversion) {
-  console.log(escalarMarca("Tu negocio"));
-}
-    </pre>
-  </div>
 
   <!-- EFECTOS DE LUZ -->
   <div class="hero-glow hero-glow-1"></div>
@@ -78,7 +60,7 @@ if (conversion) {
     </h1>
 
     <p class="hero-text">
-      Elige tu nichoy recibe tu página personalizada en días.
+      Elige tu nicho y recibe tu página personalizada en días.
     </p>
 
     <div class="hero-actions">
@@ -115,603 +97,604 @@ if (conversion) {
 
 </section>
 
-    <section class="section proof-section">
-      <div class="section-heading">
-        <span class="section-tag">Tu ventaja</span>
-        <h2>No compras a ciegas</h2>
-        <p>
-          Aquí puedes ver ejemplos reales antes de decidir. Eso genera confianza, acelera la compra
-          y te permite elegir el plan correcto para tu negocio.
-        </p>
-      </div>
+<section class="section proof-section">
+  <div class="section-heading">
+    <span class="section-tag">Tu ventaja</span>
+    <h2>No compras a ciegas</h2>
+    <p>
+      Aquí puedes ver ejemplos reales antes de decidir. Eso genera confianza, acelera la compra
+      y te permite elegir el plan correcto para tu negocio.
+    </p>
+  </div>
 
-      <div class="proof-grid">
-        <div class="proof-card">
-          <h3>Ves el resultado primero</h3>
-          <p>No te explico cómo podría quedar. Te lo enseño.</p>
+  <div class="proof-grid">
+    <div class="proof-card">
+      <h3>Ves el resultado primero</h3>
+      <p>No te explico cómo podría quedar. Te lo enseño.</p>
+    </div>
+
+    <div class="proof-card">
+      <h3>Todo por nicho</h3>
+      <p>Cada tipo de negocio tiene una estructura distinta y ya la tienes lista para revisar.</p>
+    </div>
+
+    <div class="proof-card">
+      <h3>Entrega más rápida</h3>
+      <p>Partimos de una base sólida y la adaptamos a tu negocio real.</p>
+    </div>
+  </div>
+</section>
+
+<section id="nichos" class="section">
+  <div class="section-heading">
+    <span class="section-tag">Demos por categoría</span>
+    <h2>Explora tu tipo de negocio</h2>
+    <p>
+      Da clic en la tarjeta que te interese. Desde ahí mismo se desplegarán los niveles
+      <strong>Basic</strong>, <strong>Premium</strong> y <strong>Pro</strong>.
+    </p>
+  </div>
+
+  <div class="accordion-grid">
+
+    <!-- BARBERIAS -->
+    <div class="accordion-item category-accordion" id="barberias">
+      <button class="accordion-header category-header" type="button">
+        <div class="accordion-header-content">
+          <h3>Barberías</h3>
+          <p>Presencia, estilo y reservas por WhatsApp.</p>
         </div>
+        <span class="accordion-icon">+</span>
+      </button>
 
-        <div class="proof-card">
-          <h3>Todo por nicho</h3>
-          <p>Cada tipo de negocio tiene una estructura distinta y ya la tienes lista para revisar.</p>
-        </div>
-
-        <div class="proof-card">
-          <h3>Entrega más rápida</h3>
-          <p>Partimos de una base sólida y la adaptamos a tu negocio real.</p>
-        </div>
-      </div>
-    </section>
-
-    <section id="nichos" class="section">
-      <div class="section-heading">
-        <span class="section-tag">Demos por categoría</span>
-        <h2>Explora tu tipo de negocio</h2>
-        <p>
-          Da clic en la tarjeta que te interese. Desde ahí mismo se desplegarán los niveles
-          <strong>Basic</strong>, <strong>Premium</strong> y <strong>Pro</strong>.
-        </p>
-      </div>
-
-      <div class="accordion-grid">
-
-        <!-- BARBERIAS -->
-        <div class="accordion-item category-accordion" id="barberias">
-          <button class="accordion-header category-header" type="button">
-            <div class="accordion-header-content">
-              <h3>Barberías</h3>
-              <p>Presencia, estilo y reservas por WhatsApp.</p>
+      <div class="accordion-content">
+        <div class="plans-grid">
+          <article class="plan-card">
+            <span class="plan-badge">Basic</span>
+            <h4>Basic</h4>
+            <p class="plan-price">$2,500 MXN</p>
+            <p class="plan-description">Para la barbería que aún no tiene presencia online. Tus servicios, fotos y ubicación en una sola página lista para compartir por WhatsApp o redes.</p>
+            <ul class="plan-features">
+              <li>Página profesional lista para compartir</li>
+              <li>Tus servicios y precios bien presentados</li>
+              <li>Galería para mostrar tu trabajo</li>
+              <li>Ubicación y horarios claros</li>
+              <li>Botón directo a WhatsApp</li>
+            </ul>
+            <div class="plan-actions">
+              <a href="https://joelarteaga2000-coder.github.io/barber-basic/" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Ver demo</a>
+              <a href="https://wa.me/5215525051050?text=Hola,%20quiero%20el%20plan%20Basic%20para%20barber%C3%ADa" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Solicitar plan</a>
             </div>
-            <span class="accordion-icon">+</span>
-          </button>
+          </article>
 
-          <div class="accordion-content">
-            <div class="plans-grid">
-              <article class="plan-card">
-                <span class="plan-badge">Basic</span>
-                <h4>Basic</h4>
-                <p class="plan-price">$2,500 MXN</p>
-                <p class="plan-description">Ideal para empezar con presencia online profesional.</p>
-                <ul class="plan-features">
-                  <li>Landing page profesional</li>
-                  <li>Servicios</li>
-                  <li>Galería</li>
-                  <li>Ubicación</li>
-                  <li>Botón a WhatsApp</li>
-                </ul>
-                <div class="plan-actions">
-                  <a href="https://joelarteaga2000-coder.github.io/barber-basic/" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Ver demo</a>
-                  <a href="https://wa.me/5215525051050?text=Hola,%20quiero%20el%20plan%20Basic%20para%20barber%C3%ADa" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Solicitar plan</a>
-                </div>
-              </article>
-
-              <article class="plan-card featured">
-                <span class="featured-label">Más recomendado</span>
-                <span class="plan-badge">Premium</span>
-                <h4>Premium</h4>
-                <p class="plan-price">$5,000 MXN</p>
-                <p class="plan-description">Para barberías que quieren verse más serias y transmitir más confianza.</p>
-                <ul class="plan-features">
-                  <li>Todo lo del Basic</li>
-                  <li>Sobre nosotros</li>
-                  <li>Equipo</li>
-                  <li>Opiniones</li>
-                  <li>Mejor estructura comercial</li>
-                </ul>
-                <div class="plan-actions">
-                  <a href="https://joelarteaga2000-coder.github.io/barber-premium/" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Ver demo</a>
-                  <a href="https://wa.me/5215525051050?text=Hola,%20quiero%20el%20plan%20Premium%20para%20barber%C3%ADa" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Solicitar plan</a>
-                </div>
-              </article>
-
-              <article class="plan-card">
-                <span class="plan-badge">Pro</span>
-                <h4>Pro</h4>
-                <p class="plan-price">$8,000 MXN</p>
-                <p class="plan-description">Para barberías que quieren una experiencia premium y más potencia visual.</p>
-                <ul class="plan-features">
-                  <li>Todo lo del Premium</li>
-                  <li>Formulario</li>
-                  <li>Más secciones premium</li>
-                  <li>Mayor profundidad visual</li>
-                  <li>Más impacto comercial</li>
-                </ul>
-                <div class="plan-actions">
-                  <a href="https://joelarteaga2000-coder.github.io/barber-pro/" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Ver demo</a>
-                  <a href="https://wa.me/5215525051050?text=Hola,%20quiero%20el%20plan%20Pro%20para%20barber%C3%ADa" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Solicitar plan</a>
-                </div>
-              </article>
+          <article class="plan-card featured">
+            <span class="featured-label">Más recomendado</span>
+            <span class="plan-badge">Premium</span>
+            <h4>Premium</h4>
+            <p class="plan-price">$5,000 MXN</p>
+            <p class="plan-description">Para la barbería que quiere verse más seria. Presentas a tu equipo, muestras reseñas reales y le das al cliente razones para elegirte antes de llegar.</p>
+            <ul class="plan-features">
+              <li>Todo lo del Basic incluido</li>
+              <li>Historia y personalidad de tu barbería</li>
+              <li>Tu equipo con nombre y especialidad</li>
+              <li>Reseñas que generan confianza antes de la visita</li>
+              <li>Estructura pensada para que el cliente te elija a ti</li>
+            </ul>
+            <div class="plan-actions">
+              <a href="https://joelarteaga2000-coder.github.io/barber-premium/" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Ver demo</a>
+              <a href="https://wa.me/5215525051050?text=Hola,%20quiero%20el%20plan%20Premium%20para%20barber%C3%ADa" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Solicitar plan</a>
             </div>
-          </div>
-        </div>
+          </article>
 
-        <!-- DENTISTAS -->
-        <div class="accordion-item category-accordion" id="dentistas">
-          <button class="accordion-header category-header" type="button">
-            <div class="accordion-header-content">
-              <h3>Dentistas</h3>
-              <p>Confianza, profesionalismo y facilidad de contacto.</p>
+          <article class="plan-card">
+            <span class="plan-badge">Pro</span>
+            <h4>Pro</h4>
+            <p class="plan-price">$8,000 MXN</p>
+            <p class="plan-description">Para la barbería que quiere operar como un negocio premium. Tus clientes llegan con su estilo en mente gracias al formulario de pre-reserva.</p>
+            <ul class="plan-features">
+              <li>Todo lo del Premium incluido</li>
+              <li>Sección de productos que usas y recomiendas</li>
+              <li>Formulario de pre-reserva para llegar preparado</li>
+              <li>FAQ que resuelve dudas antes de que pregunten</li>
+              <li>Experiencia completa de barbería premium</li>
+            </ul>
+            <div class="plan-actions">
+              <a href="https://joelarteaga2000-coder.github.io/barber-pro/" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Ver demo</a>
+              <a href="https://wa.me/5215525051050?text=Hola,%20quiero%20el%20plan%20Pro%20para%20barber%C3%ADa" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Solicitar plan</a>
             </div>
-            <span class="accordion-icon">+</span>
-          </button>
-
-          <div class="accordion-content">
-            <div class="plans-grid">
-              <article class="plan-card">
-                <span class="plan-badge">Basic</span>
-                <h4>Basic</h4>
-                <p class="plan-price">$2,500 MXN</p>
-                <p class="plan-description">Una opción clara para empezar a verte profesional online.</p>
-                <ul class="plan-features">
-                  <li>Landing page profesional</li>
-                  <li>Tratamientos</li>
-                  <li>Galería</li>
-                  <li>Ubicación</li>
-                  <li>Botón a WhatsApp</li>
-                </ul>
-                <div class="plan-actions">
-                  <a href="https://joelarteaga2000-coder.github.io/dentista-basica/" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Ver demo</a>
-                  <a href="https://wa.me/5215525051050?text=Hola,%20quiero%20el%20plan%20Basic%20para%20dentista" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Solicitar plan</a>
-                </div>
-              </article>
-
-              <article class="plan-card featured">
-                <span class="featured-label">Más recomendado</span>
-                <span class="plan-badge">Premium</span>
-                <h4>Premium</h4>
-                <p class="plan-price">$5,000 MXN</p>
-                <p class="plan-description">Para consultorios que quieren verse más completos y confiables.</p>
-                <ul class="plan-features">
-                  <li>Todo lo del Basic</li>
-                  <li>Perfil profesional</li>
-                  <li>Opiniones</li>
-                  <li>FAQ</li>
-                  <li>Más estructura de credibilidad</li>
-                </ul>
-                <div class="plan-actions">
-                  <a href="https://joelarteaga2000-coder.github.io/dentista-premium/" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Ver demo</a>
-                  <a href="https://wa.me/5215525051050?text=Hola,%20quiero%20el%20plan%20Premium%20para%20dentista" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Solicitar plan</a>
-                </div>
-              </article>
-
-              <article class="plan-card">
-                <span class="plan-badge">Pro</span>
-                <h4>Pro</h4>
-                <p class="plan-price">$8,000 MXN</p>
-                <p class="plan-description">Para consultorios que quieren una presencia más premium y completa.</p>
-                <ul class="plan-features">
-                  <li>Todo lo del Premium</li>
-                  <li>Formulario</li>
-                  <li>Más secciones premium</li>
-                  <li>Mayor autoridad visual</li>
-                  <li>Mejor recorrido del usuario</li>
-                </ul>
-                <div class="plan-actions">
-                  <a href="https://joelarteaga2000-coder.github.io/dentista-pro/" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Ver demo</a>
-                  <a href="https://wa.me/5215525051050?text=Hola,%20quiero%20el%20plan%20Pro%20para%20dentista" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Solicitar plan</a>
-                </div>
-              </article>
-            </div>
-          </div>
-        </div>
-
-        <!-- SALON DE BELLEZA -->
-        <div class="accordion-item category-accordion" id="salon-belleza">
-          <button class="accordion-header category-header" type="button">
-            <div class="accordion-header-content">
-              <h3>Salón de belleza</h3>
-              <p>Imagen premium, citas y presentación visual fuerte.</p>
-            </div>
-            <span class="accordion-icon">+</span>
-          </button>
-
-          <div class="accordion-content">
-            <div class="plans-grid">
-              <article class="plan-card">
-                <span class="plan-badge">Basic</span>
-                <h4>Basic</h4>
-                <p class="plan-price">$2,500 MXN</p>
-                <p class="plan-description">Una base profesional para captar clientas y verte mejor.</p>
-                <ul class="plan-features">
-                  <li>Landing page simple</li>
-                  <li>Servicios</li>
-                  <li>Galería</li>
-                  <li>Ubicación</li>
-                  <li>WhatsApp directo</li>
-                </ul>
-                <div class="plan-actions">
-                  <a href="https://joelarteaga2000-coder.github.io/esteticas-basic/" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Ver demo</a>
-                  <a href="https://wa.me/5215525051050?text=Hola,%20quiero%20el%20plan%20Basic%20para%20sal%C3%B3n%20de%20belleza" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Solicitar plan</a>
-                </div>
-              </article>
-
-              <article class="plan-card featured">
-                <span class="featured-label">Más recomendado</span>
-                <span class="plan-badge">Premium</span>
-                <h4>Premium</h4>
-                <p class="plan-price">$5,000 MXN</p>
-                <p class="plan-description">Más imagen, más confianza y mejor presentación del negocio.</p>
-                <ul class="plan-features">
-                  <li>Todo lo del Basic</li>
-                  <li>Sobre el salón</li>
-                  <li>Opiniones</li>
-                  <li>Más estructura visual</li>
-                  <li>Mayor percepción de valor</li>
-                </ul>
-                <div class="plan-actions">
-                  <a href="https://joelarteaga2000-coder.github.io/esteticas-premium/" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Ver demo</a>
-                  <a href="https://wa.me/5215525051050?text=Hola,%20quiero%20el%20plan%20Premium%20para%20sal%C3%B3n%20de%20belleza" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Solicitar plan</a>
-                </div>
-              </article>
-
-              <article class="plan-card">
-                <span class="plan-badge">Pro</span>
-                <h4>Pro</h4>
-                <p class="plan-price">$8,000 MXN</p>
-                <p class="plan-description">Para negocios de belleza que quieren una experiencia más premium.</p>
-                <ul class="plan-features">
-                  <li>Todo lo del Premium</li>
-                  <li>Formulario</li>
-                  <li>Más secciones premium</li>
-                  <li>Más impacto visual</li>
-                  <li>Mejor conversión</li>
-                </ul>
-                <div class="plan-actions">
-                  <a href="https://joelarteaga2000-coder.github.io/esteticas-pro/" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Ver demo</a>
-                  <a href="https://wa.me/5215525051050?text=Hola,%20quiero%20el%20plan%20Pro%20para%20sal%C3%B3n%20de%20belleza" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Solicitar plan</a>
-                </div>
-              </article>
-            </div>
-          </div>
-        </div>
-
-        <!-- MEDICOS -->
-        <div class="accordion-item category-accordion" id="medicos">
-          <button class="accordion-header category-header" type="button">
-            <div class="accordion-header-content">
-              <h3>Médicos</h3>
-              <p>Claridad, autoridad y contacto rápido para pacientes.</p>
-            </div>
-            <span class="accordion-icon">+</span>
-          </button>
-
-          <div class="accordion-content">
-            <div class="plans-grid">
-              <article class="plan-card">
-                <span class="plan-badge">Basic</span>
-                <h4>Basic</h4>
-                <p class="plan-price">$2,500 MXN</p>
-                <p class="plan-description">Presencia médica clara y profesional para empezar bien.</p>
-                <ul class="plan-features">
-                  <li>Landing page médica</li>
-                  <li>Áreas de atención</li>
-                  <li>Galería</li>
-                  <li>Ubicación</li>
-                  <li>WhatsApp directo</li>
-                </ul>
-                <div class="plan-actions">
-                  <a href="https://joelarteaga2000-coder.github.io/medico-basic/" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Ver demo</a>
-                  <a href="https://wa.me/5215525051050?text=Hola,%20quiero%20el%20plan%20Basic%20para%20m%C3%A9dico" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Solicitar plan</a>
-                </div>
-              </article>
-
-              <article class="plan-card featured">
-                <span class="featured-label">Más recomendado</span>
-                <span class="plan-badge">Premium</span>
-                <h4>Premium</h4>
-                <p class="plan-price">$5,000 MXN</p>
-                <p class="plan-description">Para consultorios que quieren verse más completos y confiables.</p>
-                <ul class="plan-features">
-                  <li>Todo lo del Basic</li>
-                  <li>Perfil profesional</li>
-                  <li>Opiniones</li>
-                  <li>Horarios</li>
-                  <li>Más credibilidad visual</li>
-                </ul>
-                <div class="plan-actions">
-                  <a href="https://joelarteaga2000-coder.github.io/medico-premium/" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Ver demo</a>
-                  <a href="https://wa.me/5215525051050?text=Hola,%20quiero%20el%20plan%20Premium%20para%20m%C3%A9dico" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Solicitar plan</a>
-                </div>
-              </article>
-
-              <article class="plan-card">
-                <span class="plan-badge">Pro</span>
-                <h4>Pro</h4>
-                <p class="plan-price">$8,000 MXN</p>
-                <p class="plan-description">Para médicos que quieren una página más premium, profunda y persuasiva.</p>
-                <ul class="plan-features">
-                  <li>Todo lo del Premium</li>
-                  <li>Formulario</li>
-                  <li>FAQ</li>
-                  <li>Preconsulta</li>
-                  <li>Mayor presencia visual</li>
-                </ul>
-                <div class="plan-actions">
-                  <a href="https://joelarteaga2000-coder.github.io/medico-pro/" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Ver demo</a>
-                  <a href="https://wa.me/5215525051050?text=Hola,%20quiero%20el%20plan%20Pro%20para%20m%C3%A9dico" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Solicitar plan</a>
-                </div>
-              </article>
-            </div>
-          </div>
-        </div>
-
-        <!-- RESTAURANTES -->
-        <div class="accordion-item category-accordion" id="restaurantes">
-          <button class="accordion-header category-header" type="button">
-            <div class="accordion-header-content">
-              <h3>Restaurantes</h3>
-              <p>Menú, pedidos, reservaciones y mejor imagen online.</p>
-            </div>
-            <span class="accordion-icon">+</span>
-          </button>
-
-          <div class="accordion-content">
-            <div class="plans-grid">
-              <article class="plan-card">
-                <span class="plan-badge">Basic</span>
-                <h4>Basic</h4>
-                <p class="plan-price">$2,500 MXN</p>
-                <p class="plan-description">Ideal para restaurantes que quieren empezar a verse profesionales online.</p>
-                <ul class="plan-features">
-                  <li>Landing page simple</li>
-                  <li>Menú básico</li>
-                  <li>Galería</li>
-                  <li>Ubicación</li>
-                  <li>WhatsApp directo</li>
-                </ul>
-                <div class="plan-actions">
-                  <a href="https://joelarteaga2000-coder.github.io/restaurantes-basic/" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Ver demo</a>
-                  <a href="https://wa.me/5215525051050?text=Hola,%20quiero%20el%20plan%20Basic%20para%20restaurante" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Solicitar plan</a>
-                </div>
-              </article>
-
-              <article class="plan-card featured">
-                <span class="featured-label">Más recomendado</span>
-                <span class="plan-badge">Premium</span>
-                <h4>Premium</h4>
-                <p class="plan-price">$5,000 MXN</p>
-                <p class="plan-description">Para restaurantes que quieren una imagen más sólida y vender mejor su menú.</p>
-                <ul class="plan-features">
-                  <li>Todo lo del Basic</li>
-                  <li>Menú mejor estructurado</li>
-                  <li>Opiniones</li>
-                  <li>Más secciones visuales</li>
-                  <li>Mejor presentación del negocio</li>
-                </ul>
-                <div class="plan-actions">
-                  <a href="https://joelarteaga2000-coder.github.io/restaurantes-premium/" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Ver demo</a>
-                  <a href="https://wa.me/5215525051050?text=Hola,%20quiero%20el%20plan%20Premium%20para%20restaurante" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Solicitar plan</a>
-                </div>
-              </article>
-
-              <article class="plan-card">
-                <span class="plan-badge">Pro</span>
-                <h4>Pro</h4>
-                <p class="plan-price">$8,000 MXN</p>
-                <p class="plan-description">Para restaurantes que quieren una página más completa y orientada a pedidos.</p>
-                <ul class="plan-features">
-                  <li>Todo lo del Premium</li>
-                  <li>Formulario</li>
-                  <li>FAQ</li>
-                  <li>Pedido o reservación</li>
-                  <li>Mayor profundidad visual</li>
-                </ul>
-                <div class="plan-actions">
-                  <a href="https://joelarteaga2000-coder.github.io/restaurantes-pro/" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Ver demo</a>
-                  <a href="https://wa.me/5215525051050?text=Hola,%20quiero%20el%20plan%20Pro%20para%20restaurante" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Solicitar plan</a>
-                </div>
-              </article>
-            </div>
-          </div>
-        </div>
-
-        <!-- UÑAS -->
-        <div class="accordion-item category-accordion" id="unas">
-          <button class="accordion-header category-header" type="button">
-            <div class="accordion-header-content">
-              <h3>Uñas</h3>
-              <p>Diseño visual, galería y reservas por WhatsApp.</p>
-            </div>
-            <span class="accordion-icon">+</span>
-          </button>
-
-          <div class="accordion-content">
-            <div class="plans-grid">
-              <article class="plan-card">
-                <span class="plan-badge">Basic</span>
-                <h4>Basic</h4>
-                <p class="plan-price">$2,500 MXN</p>
-                <p class="plan-description">Ideal para empezar con una página bonita y profesional.</p>
-                <ul class="plan-features">
-                  <li>Landing page simple</li>
-                  <li>Servicios</li>
-                  <li>Galería</li>
-                  <li>Ubicación</li>
-                  <li>WhatsApp directo</li>
-                </ul>
-                <div class="plan-actions">
-                  <a href="https://joelarteaga2000-coder.github.io/u-as-basic/" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Ver demo</a>
-                  <a href="https://wa.me/5215525051050?text=Hola,%20quiero%20el%20plan%20Basic%20para%20u%C3%B1as" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Solicitar plan</a>
-                </div>
-              </article>
-
-              <article class="plan-card featured">
-                <span class="featured-label">Más recomendado</span>
-                <span class="plan-badge">Premium</span>
-                <h4>Premium</h4>
-                <p class="plan-price">$5,000 MXN</p>
-                <p class="plan-description">Para salones que quieren una mejor imagen y más confianza al vender.</p>
-                <ul class="plan-features">
-                  <li>Todo lo del Basic</li>
-                  <li>Sobre el estudio</li>
-                  <li>Opiniones</li>
-                  <li>Más estructura visual</li>
-                  <li>Mejor percepción de marca</li>
-                </ul>
-                <div class="plan-actions">
-                  <a href="https://joelarteaga2000-coder.github.io/u-as-premium/" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Ver demo</a>
-                  <a href="https://wa.me/5215525051050?text=Hola,%20quiero%20el%20plan%20Premium%20para%20u%C3%B1as" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Solicitar plan</a>
-                </div>
-              </article>
-
-              <article class="plan-card">
-                <span class="plan-badge">Pro</span>
-                <h4>Pro</h4>
-                <p class="plan-price">$8,000 MXN</p>
-                <p class="plan-description">Para estudios que quieren una página top con experiencia más completa.</p>
-                <ul class="plan-features">
-                  <li>Todo lo del Premium</li>
-                  <li>Formulario</li>
-                  <li>FAQ</li>
-                  <li>Pre-reserva</li>
-                  <li>Mayor profundidad visual</li>
-                </ul>
-                <div class="plan-actions">
-                  <a href="https://joelarteaga2000-coder.github.io/u-as-pro/" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Ver demo</a>
-                  <a href="https://wa.me/5215525051050?text=Hola,%20quiero%20el%20plan%20Pro%20para%20u%C3%B1as" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Solicitar plan</a>
-                </div>
-              </article>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <section id="beneficios" class="section benefits-section">
-      <div class="section-heading">
-        <span class="section-tag">Por qué elegir DISO</span>
-        <h2>Diseñado para ayudarte a vender más fácil</h2>
-      </div>
-
-      <div class="benefits-grid">
-        <div class="benefit-card">
-          <h3>Entrega rápida</h3>
-          <p>Tu página puede quedar lista en 48 a 72 horas una vez que envías tu información.</p>
-        </div>
-
-        <div class="benefit-card">
-          <h3>Demos reales</h3>
-          <p>No compras a ciegas. Puedes ver el estilo antes de tomar una decisión.</p>
-        </div>
-
-        <div class="benefit-card">
-          <h3>Estructura comercial</h3>
-          <p>Las páginas están pensadas para verse profesionales y empujar al cliente a escribir.</p>
-        </div>
-
-        <div class="benefit-card">
-          <h3>Sin complicarte</h3>
-          <p>Tú mandas la información, yo adapto el diseño y te lo entrego listo.</p>
+          </article>
         </div>
       </div>
-    </section>
+    </div>
 
-    <section id="proceso" class="section process-section">
-      <div class="section-heading">
-        <span class="section-tag">Proceso simple</span>
-        <h2>Así trabajamos</h2>
-      </div>
-
-      <div class="process-grid">
-        <div class="process-card">
-          <span class="process-number">1</span>
-          <h3>Eliges nicho y plan</h3>
-          <p>Seleccionas la categoría y el nivel que más te conviene.</p>
+    <!-- DENTISTAS -->
+    <div class="accordion-item category-accordion" id="dentistas">
+      <button class="accordion-header category-header" type="button">
+        <div class="accordion-header-content">
+          <h3>Dentistas</h3>
+          <p>Confianza, profesionalismo y facilidad de contacto.</p>
         </div>
+        <span class="accordion-icon">+</span>
+      </button>
 
-        <div class="process-card">
-          <span class="process-number">2</span>
-          <h3>Mandas tu información</h3>
-          <p>Logo, fotos, horarios, servicios, ubicación y todo lo necesario.</p>
-        </div>
+      <div class="accordion-content">
+        <div class="plans-grid">
+          <article class="plan-card">
+            <span class="plan-badge">Basic</span>
+            <h4>Basic</h4>
+            <p class="plan-price">$2,500 MXN</p>
+            <p class="plan-description">Para el consultorio que necesita estar en internet. Tus tratamientos, fotos del consultorio y datos de contacto en una página profesional y clara.</p>
+            <ul class="plan-features">
+              <li>Página profesional lista para compartir</li>
+              <li>Tus tratamientos explicados con claridad</li>
+              <li>Fotos del consultorio que generan confianza</li>
+              <li>Ubicación y horarios visibles</li>
+              <li>Botón directo a WhatsApp</li>
+            </ul>
+            <div class="plan-actions">
+              <a href="https://joelarteaga2000-coder.github.io/dentista-basica/" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Ver demo</a>
+              <a href="https://wa.me/5215525051050?text=Hola,%20quiero%20el%20plan%20Basic%20para%20dentista" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Solicitar plan</a>
+            </div>
+          </article>
 
-        <div class="process-card">
-          <span class="process-number">3</span>
-          <h3>Adaptamos tu página</h3>
-          <p>Tomamos el demo base y lo convertimos en una versión real para tu negocio.</p>
-        </div>
+          <article class="plan-card featured">
+            <span class="featured-label">Más recomendado</span>
+            <span class="plan-badge">Premium</span>
+            <h4>Premium</h4>
+            <p class="plan-price">$5,000 MXN</p>
+            <p class="plan-description">Para el consultorio que quiere generar más confianza. Tu perfil profesional, experiencia, opiniones de pacientes y FAQ reducen la duda antes de la primera cita.</p>
+            <ul class="plan-features">
+              <li>Todo lo del Basic incluido</li>
+              <li>Tu perfil profesional con experiencia y especialidad</li>
+              <li>Reseñas de pacientes que reducen el miedo a ir</li>
+              <li>FAQ con las dudas más comunes ya resueltas</li>
+              <li>Estructura que proyecta autoridad médica</li>
+            </ul>
+            <div class="plan-actions">
+              <a href="https://joelarteaga2000-coder.github.io/dentista-premium/" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Ver demo</a>
+              <a href="https://wa.me/5215525051050?text=Hola,%20quiero%20el%20plan%20Premium%20para%20dentista" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Solicitar plan</a>
+            </div>
+          </article>
 
-        <div class="process-card">
-          <span class="process-number">4</span>
-          <h3>Recibes tu sitio listo</h3>
-          <p>Queda listo para compartir, mostrar y recibir clientes por WhatsApp.</p>
-        </div>
-      </div>
-    </section>
-
-    <section id="mantenimiento" class="section maintenance-section">
-      <div class="section-heading">
-        <span class="section-tag">Ingreso recurrente</span>
-        <h2>Mantenimiento mensual opcional</h2>
-        <p>
-          Tu página es tuya. El mantenimiento es opcional, pero ideal si quieres tener cambios, soporte
-          y actualizaciones sin preocuparte por la parte técnica.
-        </p>
-      </div>
-
-      <div class="maintenance-card">
-        <div class="maintenance-price-box">
-          <h3>$500 MXN / mes</h3>
-          <p>Servicio opcional</p>
-        </div>
-
-        <ul class="maintenance-features">
-          <li>Actualización de horarios, precios o servicios</li>
-          <li>Cambios de texto e imágenes</li>
-          <li>Correcciones menores</li>
-          <li>Soporte técnico básico</li>
-          <li>Revisión general del sitio</li>
-          <li>Acompañamiento para que no se quede desactualizado</li>
-        </ul>
-      </div>
-    </section>
-
-    <section id="faq" class="section faq-section">
-      <div class="section-heading">
-        <span class="section-tag">Preguntas frecuentes</span>
-        <h2>FAQ</h2>
-      </div>
-
-      <div class="faq-grid">
-        <div class="faq-card">
-          <h3>¿Puedo ver el diseño antes de comprar?</h3>
-          <p>Sí. Esa es una de las ventajas más fuertes de DISO: puedes ver demos reales antes de decidir.</p>
-        </div>
-
-        <div class="faq-card">
-          <h3>¿La página se personaliza a mi negocio?</h3>
-          <p>Sí. Se adapta con tus fotos, horarios, servicios, ubicación, logo y datos reales.</p>
-        </div>
-
-        <div class="faq-card">
-          <h3>¿Cuánto tardas en entregarla?</h3>
-          <p>Normalmente entre 48 y 72 horas, dependiendo del plan y de qué tan rápido envíes tu material.</p>
-        </div>
-
-        <div class="faq-card">
-          <h3>¿El mantenimiento es obligatorio?</h3>
-          <p>No. Es opcional. Puedes contratarlo solo si quieres cambios y soporte continuo.</p>
+          <article class="plan-card">
+            <span class="plan-badge">Pro</span>
+            <h4>Pro</h4>
+            <p class="plan-price">$8,000 MXN</p>
+            <p class="plan-description">Para el consultorio que quiere una experiencia más completa. El paciente llega con su motivo de consulta registrado y el dentista ya sabe cómo atenderlo mejor.</p>
+            <ul class="plan-features">
+              <li>Todo lo del Premium incluido</li>
+              <li>Formulario de pre-consulta con triage visual</li>
+              <li>El paciente llega con su motivo registrado</li>
+              <li>FAQ ampliado para casos más específicos</li>
+              <li>Experiencia que diferencia tu consultorio desde el primer clic</li>
+            </ul>
+            <div class="plan-actions">
+              <a href="https://joelarteaga2000-coder.github.io/dentista-pro/" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Ver demo</a>
+              <a href="https://wa.me/5215525051050?text=Hola,%20quiero%20el%20plan%20Pro%20para%20dentista" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Solicitar plan</a>
+            </div>
+          </article>
         </div>
       </div>
-    </section>
+    </div>
 
-    <section id="contacto" class="section final-cta">
-      <div class="final-cta-box">
-        <span class="section-tag">Listo para empezar</span>
-        <h2>Haz que tu negocio se vea como un negocio serio</h2>
-        <p>
-          Si ya viste los demos y quieres una página así para tu negocio, escríbeme y te recomiendo el plan ideal.
-        </p>
+    <!-- SALON DE BELLEZA -->
+    <div class="accordion-item category-accordion" id="salon-belleza">
+      <button class="accordion-header category-header" type="button">
+        <div class="accordion-header-content">
+          <h3>Salón de belleza</h3>
+          <p>Imagen premium, citas y presentación visual fuerte.</p>
+        </div>
+        <span class="accordion-icon">+</span>
+      </button>
 
-        <div class="hero-actions">
-          <a href="https://wa.me/5215525051050?text=Hola,%20quiero%20una%20p%C3%A1gina%20web%20para%20mi%20negocio" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
-            Escribir por WhatsApp
-          </a>
-          <a href="#nichos" class="btn btn-secondary">Ver demos otra vez</a>
+      <div class="accordion-content">
+        <div class="plans-grid">
+          <article class="plan-card">
+            <span class="plan-badge">Basic</span>
+            <h4>Basic</h4>
+            <p class="plan-price">$2,500 MXN</p>
+            <p class="plan-description">Para el salón que quiere empezar a verse profesional online. Servicios, galería y contacto directo por WhatsApp en una página limpia y bien presentada.</p>
+            <ul class="plan-features">
+              <li>Página profesional lista para compartir</li>
+              <li>Tus servicios y precios bien presentados</li>
+              <li>Galería para mostrar tu trabajo real</li>
+              <li>Ubicación y horarios claros</li>
+              <li>Botón directo a WhatsApp</li>
+            </ul>
+            <div class="plan-actions">
+              <a href="https://joelarteaga2000-coder.github.io/esteticas-basic/" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Ver demo</a>
+              <a href="https://wa.me/5215525051050?text=Hola,%20quiero%20el%20plan%20Basic%20para%20sal%C3%B3n%20de%20belleza" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Solicitar plan</a>
+            </div>
+          </article>
+
+          <article class="plan-card featured">
+            <span class="featured-label">Más recomendado</span>
+            <span class="plan-badge">Premium</span>
+            <h4>Premium</h4>
+            <p class="plan-price">$5,000 MXN</p>
+            <p class="plan-description">Para el salón que quiere proyectar más imagen y confianza. Historia del negocio, opiniones de clientas y una estructura visual que comunica calidad desde el primer vistazo.</p>
+            <ul class="plan-features">
+              <li>Todo lo del Basic incluido</li>
+              <li>Historia y esencia de tu salón</li>
+              <li>Reseñas de clientas que convencen antes de la cita</li>
+              <li>Más secciones visuales que comunican calidad</li>
+              <li>Estructura que hace que te perciban como el mejor de la zona</li>
+            </ul>
+            <div class="plan-actions">
+              <a href="https://joelarteaga2000-coder.github.io/esteticas-premium/" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Ver demo</a>
+              <a href="https://wa.me/5215525051050?text=Hola,%20quiero%20el%20plan%20Premium%20para%20sal%C3%B3n%20de%20belleza" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Solicitar plan</a>
+            </div>
+          </article>
+
+          <article class="plan-card">
+            <span class="plan-badge">Pro</span>
+            <h4>Pro</h4>
+            <p class="plan-price">$8,000 MXN</p>
+            <p class="plan-description">Para el salón que quiere una experiencia más premium. Las clientas llegan con su estilo definido gracias al formulario de pre-reserva.</p>
+            <ul class="plan-features">
+              <li>Todo lo del Premium incluido</li>
+              <li>Formulario de pre-reserva con estilo deseado</li>
+              <li>Las clientas llegan sabiendo lo que quieren</li>
+              <li>FAQ que elimina dudas y reduce cancelaciones</li>
+              <li>Experiencia visual y comercial de nivel premium</li>
+            </ul>
+            <div class="plan-actions">
+              <a href="https://joelarteaga2000-coder.github.io/esteticas-pro/" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Ver demo</a>
+              <a href="https://wa.me/5215525051050?text=Hola,%20quiero%20el%20plan%20Pro%20para%20sal%C3%B3n%20de%20belleza" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Solicitar plan</a>
+            </div>
+          </article>
         </div>
       </div>
-    </section>
+    </div>
+
+    <!-- MEDICOS -->
+    <div class="accordion-item category-accordion" id="medicos">
+      <button class="accordion-header category-header" type="button">
+        <div class="accordion-header-content">
+          <h3>Médicos</h3>
+          <p>Claridad, autoridad y contacto rápido para pacientes.</p>
+        </div>
+        <span class="accordion-icon">+</span>
+      </button>
+
+      <div class="accordion-content">
+        <div class="plans-grid">
+          <article class="plan-card">
+            <span class="plan-badge">Basic</span>
+            <h4>Basic</h4>
+            <p class="plan-price">$2,500 MXN</p>
+            <p class="plan-description">Para el consultorio que necesita presencia digital profesional. Áreas de atención, fotos del espacio y contacto fácil para que los pacientes te encuentren y te escriban.</p>
+            <ul class="plan-features">
+              <li>Página profesional lista para compartir</li>
+              <li>Tus áreas de atención explicadas con claridad</li>
+              <li>Fotos del consultorio que transmiten confianza</li>
+              <li>Ubicación y horarios visibles</li>
+              <li>Botón directo a WhatsApp</li>
+            </ul>
+            <div class="plan-actions">
+              <a href="https://joelarteaga2000-coder.github.io/medico-basic/" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Ver demo</a>
+              <a href="https://wa.me/5215525051050?text=Hola,%20quiero%20el%20plan%20Basic%20para%20m%C3%A9dico" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Solicitar plan</a>
+            </div>
+          </article>
+
+          <article class="plan-card featured">
+            <span class="featured-label">Más recomendado</span>
+            <span class="plan-badge">Premium</span>
+            <h4>Premium</h4>
+            <p class="plan-price">$5,000 MXN</p>
+            <p class="plan-description">Para el médico que quiere generar más autoridad. Tu perfil, especialidad, opiniones de pacientes y preguntas frecuentes construyen confianza antes de la primera consulta.</p>
+            <ul class="plan-features">
+              <li>Todo lo del Basic incluido</li>
+              <li>Tu perfil con especialidad, experiencia y enfoque</li>
+              <li>Reseñas de pacientes que generan seguridad</li>
+              <li>Horarios detallados y modalidades de atención</li>
+              <li>Estructura que comunica profesionalismo desde el inicio</li>
+            </ul>
+            <div class="plan-actions">
+              <a href="https://joelarteaga2000-coder.github.io/medico-premium/" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Ver demo</a>
+              <a href="https://wa.me/5215525051050?text=Hola,%20quiero%20el%20plan%20Premium%20para%20m%C3%A9dico" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Solicitar plan</a>
+            </div>
+          </article>
+
+          <article class="plan-card">
+            <span class="plan-badge">Pro</span>
+            <h4>Pro</h4>
+            <p class="plan-price">$8,000 MXN</p>
+            <p class="plan-description">Para el consultorio que quiere optimizar la atención. Los pacientes llegan con su motivo registrado, lo que hace más eficiente cada cita.</p>
+            <ul class="plan-features">
+              <li>Todo lo del Premium incluido</li>
+              <li>Formulario de pre-consulta con motivo y urgencia</li>
+              <li>El paciente llega registrado y tú llegas preparado</li>
+              <li>FAQ que filtra dudas antes de la cita</li>
+              <li>Página que hace más eficiente tu consulta diaria</li>
+            </ul>
+            <div class="plan-actions">
+              <a href="https://joelarteaga2000-coder.github.io/medico-pro/" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Ver demo</a>
+              <a href="https://wa.me/5215525051050?text=Hola,%20quiero%20el%20plan%20Pro%20para%20m%C3%A9dico" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Solicitar plan</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <!-- RESTAURANTES -->
+    <div class="accordion-item category-accordion" id="restaurantes">
+      <button class="accordion-header category-header" type="button">
+        <div class="accordion-header-content">
+          <h3>Restaurantes</h3>
+          <p>Menú, pedidos, reservaciones y mejor imagen online.</p>
+        </div>
+        <span class="accordion-icon">+</span>
+      </button>
+
+      <div class="accordion-content">
+        <div class="plans-grid">
+          <article class="plan-card">
+            <span class="plan-badge">Basic</span>
+            <h4>Basic</h4>
+            <p class="plan-price">$2,500 MXN</p>
+            <p class="plan-description">Para el restaurante que quiere estar en internet. Tu menú, fotos del lugar y ubicación en una página lista para compartir y atraer comensales nuevos.</p>
+            <ul class="plan-features">
+              <li>Página profesional lista para compartir</li>
+              <li>Tu menú presentado de forma clara y atractiva</li>
+              <li>Galería que abre el apetito antes de llegar</li>
+              <li>Ubicación y horarios visibles</li>
+              <li>Botón directo a WhatsApp</li>
+            </ul>
+            <div class="plan-actions">
+              <a href="https://joelarteaga2000-coder.github.io/restaurantes-basic/" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Ver demo</a>
+              <a href="https://wa.me/5215525051050?text=Hola,%20quiero%20el%20plan%20Basic%20para%20restaurante" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Solicitar plan</a>
+            </div>
+          </article>
+
+          <article class="plan-card featured">
+            <span class="featured-label">Más recomendado</span>
+            <span class="plan-badge">Premium</span>
+            <h4>Premium</h4>
+            <p class="plan-price">$5,000 MXN</p>
+            <p class="plan-description">Para el restaurante que quiere vender mejor su experiencia. Historia del negocio, menú bien estructurado y reseñas que convierten al indeciso en comensal.</p>
+            <ul class="plan-features">
+              <li>Todo lo del Basic incluido</li>
+              <li>Historia y concepto de tu restaurante</li>
+              <li>Menú mejor estructurado por categorías</li>
+              <li>Reseñas que convierten al indeciso en comensal</li>
+              <li>Presentación visual que eleva la percepción de tu negocio</li>
+            </ul>
+            <div class="plan-actions">
+              <a href="https://joelarteaga2000-coder.github.io/restaurantes-premium/" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Ver demo</a>
+              <a href="https://wa.me/5215525051050?text=Hola,%20quiero%20el%20plan%20Premium%20para%20restaurante" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Solicitar plan</a>
+            </div>
+          </article>
+
+          <article class="plan-card">
+            <span class="plan-badge">Pro</span>
+            <h4>Pro</h4>
+            <p class="plan-price">$8,000 MXN</p>
+            <p class="plan-description">Para el restaurante que quiere más control. Tus clientes pueden hacer pedidos o reservaciones directamente desde la página, sin llamadas ni confusiones.</p>
+            <ul class="plan-features">
+              <li>Todo lo del Premium incluido</li>
+              <li>Formulario de reservación o pedido anticipado</li>
+              <li>FAQ con políticas, horarios y preguntas frecuentes</li>
+              <li>Secciones que comunican experiencia, no solo comida</li>
+              <li>Página diseñada para llenar mesas, no solo informar</li>
+            </ul>
+            <div class="plan-actions">
+              <a href="https://joelarteaga2000-coder.github.io/restaurantes-pro/" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Ver demo</a>
+              <a href="https://wa.me/5215525051050?text=Hola,%20quiero%20el%20plan%20Pro%20para%20restaurante" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Solicitar plan</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <!-- UÑAS -->
+    <div class="accordion-item category-accordion" id="unas">
+      <button class="accordion-header category-header" type="button">
+        <div class="accordion-header-content">
+          <h3>Uñas</h3>
+          <p>Diseño visual, galería y reservas por WhatsApp.</p>
+        </div>
+        <span class="accordion-icon">+</span>
+      </button>
+
+      <div class="accordion-content">
+        <div class="plans-grid">
+          <article class="plan-card">
+            <span class="plan-badge">Basic</span>
+            <h4>Basic</h4>
+            <p class="plan-price">$2,500 MXN</p>
+            <p class="plan-description">Para el estudio que quiere empezar a mostrar su trabajo online. Servicios, galería de diseños y contacto directo para que las clientas te escriban sin dar rodeos.</p>
+            <ul class="plan-features">
+              <li>Página profesional lista para compartir</li>
+              <li>Tus servicios y precios bien presentados</li>
+              <li>Galería de diseños que habla por ti</li>
+              <li>Ubicación y horarios claros</li>
+              <li>Botón directo a WhatsApp</li>
+            </ul>
+            <div class="plan-actions">
+              <a href="https://joelarteaga2000-coder.github.io/u-as-basic/" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Ver demo</a>
+              <a href="https://wa.me/5215525051050?text=Hola,%20quiero%20el%20plan%20Basic%20para%20u%C3%B1as" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Solicitar plan</a>
+            </div>
+          </article>
+
+          <article class="plan-card featured">
+            <span class="featured-label">Más recomendado</span>
+            <span class="plan-badge">Premium</span>
+            <h4>Premium</h4>
+            <p class="plan-price">$5,000 MXN</p>
+            <p class="plan-description">Para el estudio que quiere destacar en su zona. Presentas tu trabajo, tus clientas hablan por ti con sus reseñas y tu página comunica calidad y confianza.</p>
+            <ul class="plan-features">
+              <li>Todo lo del Basic incluido</li>
+              <li>Historia y personalidad de tu estudio</li>
+              <li>Reseñas de clientas que generan confianza</li>
+              <li>Estructura visual que transmite cuidado y detalle</li>
+              <li>Página que hace que te vean como la mejor opción</li>
+            </ul>
+            <div class="plan-actions">
+              <a href="https://joelarteaga2000-coder.github.io/u-as-premium/" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Ver demo</a>
+              <a href="https://wa.me/5215525051050?text=Hola,%20quiero%20el%20plan%20Premium%20para%20u%C3%B1as" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Solicitar plan</a>
+            </div>
+          </article>
+
+          <article class="plan-card">
+            <span class="plan-badge">Pro</span>
+            <h4>Pro</h4>
+            <p class="plan-price">$8,000 MXN</p>
+            <p class="plan-description">Para el estudio que quiere una experiencia completa. Las clientas llegan con su idea clara y tú preparada gracias al formulario de pre-reserva.</p>
+            <ul class="plan-features">
+              <li>Todo lo del Premium incluido</li>
+              <li>Formulario de pre-reserva con diseño deseado</li>
+              <li>Las clientas llegan con su idea clara y tú preparada</li>
+              <li>FAQ que reduce dudas y cancelaciones</li>
+              <li>Experiencia completa que justifica tu precio</li>
+            </ul>
+            <div class="plan-actions">
+              <a href="https://joelarteaga2000-coder.github.io/u-as-pro/" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Ver demo</a>
+              <a href="https://wa.me/5215525051050?text=Hola,%20quiero%20el%20plan%20Pro%20para%20u%C3%B1as" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Solicitar plan</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="beneficios" class="section benefits-section">
+  <div class="section-heading">
+    <span class="section-tag">Por qué elegir DISO</span>
+    <h2>Diseñado para ayudarte a vender más fácil</h2>
+  </div>
+
+  <div class="benefits-grid">
+    <div class="benefit-card">
+      <h3>Entrega rápida</h3>
+      <p>Tu página puede quedar lista en 48 a 72 horas una vez que envías tu información.</p>
+    </div>
+
+    <div class="benefit-card">
+      <h3>Demos reales</h3>
+      <p>No compras a ciegas. Puedes ver el estilo antes de tomar una decisión.</p>
+    </div>
+
+    <div class="benefit-card">
+      <h3>Estructura comercial</h3>
+      <p>Las páginas están pensadas para verse profesionales y empujar al cliente a escribir.</p>
+    </div>
+
+    <div class="benefit-card">
+      <h3>Sin complicarte</h3>
+      <p>Tú mandas la información, yo adapto el diseño y te lo entrego listo.</p>
+    </div>
+  </div>
+</section>
+
+<section id="proceso" class="section process-section">
+  <div class="section-heading">
+    <span class="section-tag">Proceso simple</span>
+    <h2>Así trabajamos</h2>
+  </div>
+
+  <div class="process-grid">
+    <div class="process-card">
+      <span class="process-number">1</span>
+      <h3>Eliges nicho y plan</h3>
+      <p>Seleccionas la categoría y el nivel que más te conviene.</p>
+    </div>
+
+    <div class="process-card">
+      <span class="process-number">2</span>
+      <h3>Mandas tu información</h3>
+      <p>Logo, fotos, horarios, servicios, ubicación y todo lo necesario.</p>
+    </div>
+
+    <div class="process-card">
+      <span class="process-number">3</span>
+      <h3>Adaptamos tu página</h3>
+      <p>Tomamos el demo base y lo convertimos en una versión real para tu negocio.</p>
+    </div>
+
+    <div class="process-card">
+      <span class="process-number">4</span>
+      <h3>Recibes tu sitio listo</h3>
+      <p>Queda listo para compartir, mostrar y recibir clientes por WhatsApp.</p>
+    </div>
+  </div>
+</section>
+
+<section id="mantenimiento" class="section maintenance-section">
+  <div class="section-heading">
+    <span class="section-tag">Ingreso recurrente</span>
+    <h2>Mantenimiento mensual opcional</h2>
+    <p>
+      Tu página es tuya. El mantenimiento es opcional, pero ideal si quieres tener cambios, soporte
+      y actualizaciones sin preocuparte por la parte técnica.
+    </p>
+  </div>
+
+  <div class="maintenance-card">
+    <div class="maintenance-price-box">
+      <h3>$500 MXN / mes</h3>
+      <p>Servicio opcional</p>
+    </div>
+
+    <ul class="maintenance-features">
+      <li>Actualización de horarios, precios o servicios</li>
+      <li>Cambios de texto e imágenes</li>
+      <li>Correcciones menores</li>
+      <li>Soporte técnico básico</li>
+      <li>Revisión general del sitio</li>
+      <li>Acompañamiento para que no se quede desactualizado</li>
+    </ul>
+  </div>
+</section>
+
+<section id="faq" class="section faq-section">
+  <div class="section-heading">
+    <span class="section-tag">Preguntas frecuentes</span>
+    <h2>FAQ</h2>
+  </div>
+
+  <div class="faq-grid">
+    <div class="faq-card">
+      <h3>¿Puedo ver el diseño antes de comprar?</h3>
+      <p>Sí. Esa es una de las ventajas más fuertes de DISO: puedes ver demos reales antes de decidir.</p>
+    </div>
+
+    <div class="faq-card">
+      <h3>¿La página se personaliza a mi negocio?</h3>
+      <p>Sí. Se adapta con tus fotos, horarios, servicios, ubicación, logo y datos reales.</p>
+    </div>
+
+    <div class="faq-card">
+      <h3>¿Cuánto tardas en entregarla?</h3>
+      <p>Normalmente entre 48 y 72 horas, dependiendo del plan y de qué tan rápido envíes tu material.</p>
+    </div>
+
+    <div class="faq-card">
+      <h3>¿El mantenimiento es obligatorio?</h3>
+      <p>No. Es opcional. Puedes contratarlo solo si quieres cambios y soporte continuo.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contacto" class="section final-cta">
+  <div class="final-cta-box">
+    <span class="section-tag">Listo para empezar</span>
+    <h2>Haz que tu negocio se vea como un negocio serio</h2>
+    <p>
+      Si ya viste los demos y quieres una página así para tu negocio, escríbeme y te recomiendo el plan ideal.
+    </p>
+
+    <div class="hero-actions">
+      <a href="https://wa.me/5215525051050?text=Hola,%20quiero%20una%20p%C3%A1gina%20web%20para%20mi%20negocio" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+        Escribir por WhatsApp
+      </a>
+    </div>
+  </div>
+</section>
+```
+
   </main>
 
   <footer>
@@ -721,13 +704,16 @@ if (conversion) {
         <p>Páginas web para negocios locales</p>
       </div>
 
-      <div>
-        <h4>Contacto</h4>
-        <p>WhatsApp: +52 55 2505 1050</p>
-      </div>
-    </div>
+```
+  <div>
+    <h4>Contacto</h4>
+    <p>WhatsApp: +52 55 2505 1050</p>
+  </div>
+</div>
 
-    <p class="footer-copy">© 2026 DISO Web Studio</p>
+<p class="footer-copy">© 2026 DISO Web Studio</p>
+```
+
   </footer>
 
   <a href="https://wa.me/5215525051050?text=Hola,%20quiero%20informaci%C3%B3n%20sobre%20una%20p%C3%A1gina%20web%20para%20mi%20negocio" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Abrir WhatsApp">

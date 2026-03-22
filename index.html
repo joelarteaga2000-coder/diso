@@ -10,6 +10,67 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <style>
+    /* TARJETA NICHO ABIERTO */
+    .open-niche {
+      grid-column: 1 / -1;
+      overflow: visible;
+      margin-top: 16px;
+      margin-bottom: 8px;
+    }
+
+```
+.open-niche-card {
+  background: linear-gradient(135deg, rgba(37, 211, 102, 0.08), rgba(255, 255, 255, 0.02));
+  border: 1px solid rgba(37, 211, 102, 0.22);
+  border-radius: 22px;
+  padding: 36px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.open-niche-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(37, 211, 102, 0.08);
+}
+
+.open-niche-content h3 {
+  font-size: 28px;
+  margin: 0 0 12px 0;
+  color: white;
+}
+
+.open-niche-content > p {
+  color: rgba(255, 255, 255, 0.72);
+  line-height: 1.8;
+  margin: 0 0 20px 0;
+  max-width: 680px;
+}
+
+.open-niche-content .plan-features {
+  margin-bottom: 28px;
+  max-width: 560px;
+}
+
+.open-niche-content .plan-actions {
+  flex-direction: row;
+}
+
+@media (max-width: 768px) {
+  .open-niche-card {
+    padding: 24px;
+  }
+
+  .open-niche-content h3 {
+    font-size: 22px;
+  }
+
+  .open-niche-content .plan-actions {
+    flex-direction: column;
+  }
+}
+```
+
+  </style>
   <link rel="icon" href="favicon.ico">	
 </head>
 <body>
@@ -557,6 +618,25 @@
       </div>
     </div>
 
+    <!-- OTRO NEGOCIO -->
+    <div class="accordion-item category-accordion open-niche" id="otro-negocio">
+      <div class="open-niche-card">
+        <div class="open-niche-content">
+          <h3>¿Tu negocio no está en la lista?</h3>
+          <p>Trabajamos con cualquier tipo de negocio local. Spas, estudios de tatuajes, gimnasios, clínicas, tiendas y más. Cuéntanos qué necesitas y te hacemos una propuesta personalizada.</p>
+          <ul class="plan-features">
+            <li>Diseño adaptado a tu tipo de negocio</li>
+            <li>Mismos tiempos de entrega — 48 a 72 horas</li>
+            <li>Precio según el alcance del proyecto</li>
+            <li>Sin compromisos — solo platicamos</li>
+          </ul>
+          <div class="plan-actions">
+            <a href="https://wa.me/5215525051050?text=Hola,%20tengo%20un%20negocio%20que%20no%20est%C3%A1%20en%20la%20lista%20y%20quiero%20una%20p%C3%A1gina%20web" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Cotizar mi negocio</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </div>
 </section>
 
@@ -624,7 +704,7 @@
 
 <section id="mantenimiento" class="section maintenance-section">
   <div class="section-heading">
-    <span class="section-tag">Ingreso recurrente</span>
+    <span class="section-tag">Mantén tu página actualizada</span>
     <h2>Mantenimiento mensual opcional</h2>
     <p>
       Tu página es tuya. El mantenimiento es opcional, pero ideal si quieres tener cambios, soporte
